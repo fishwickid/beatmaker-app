@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Beatmaker</title>
+</head>
+<body>
+
+    <div class="sequencer">
+        <div class="kick-track">
+            <div class="controls">
+              <h1>Kick</h1>
+              <button data-track="0" class="mute kick volume">
+                <i class="fas fa-volume-mute"></i>
+              </button>
+              <select name="kick-select" id="kick-select">
+                  <option value="./sounds/kick-stomp.wav">Stomp kick</option>
+                  <option value="./sounds/snare-lofi01.wav">Lofi Snare</option>
+                  <option value="./sounds/tom-analog.wav">Tom Analog</option>
+              </select>
+            </div>
+            <div class="kick">
+                <div class="pad"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>  
+<script src="./app.js"></script>
+</body>
+</html>
