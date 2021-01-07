@@ -42,7 +42,7 @@ svg {
   background: rgb(59, 255, 154);
 }
 
-.khihat-pad.active {
+.hihat-pad.active {
   background: rgb(235, 90, 28);
 }
 
@@ -108,4 +108,17 @@ select {
   appearance: none;
   padding: 1rem;
   font-size: 1rem;
+}
+
+.mute.active {
+  background: rgb(116, 115, 115);
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
